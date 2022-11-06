@@ -1,3 +1,4 @@
+
 .pokemons {
     display: grid;
     grid-template-columns: 1fr;
@@ -130,21 +131,49 @@
 .pagination {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 100%;
     padding: 1rem;
 }
 
+.pagination > div >img{
+    width: 180px;
+}
+.botoes{
+    display: flex;
+    align-items: baseline;
+}
+.botao1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    border: 5px solid black;
+    color: red;
+    font-size: 1px;
+}
+.botao2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    border: 5px solid black;
+    color: red;
+    font-size: 16px;
+    
+    
+}
 .pagination button {
     padding: .25rem .5rem;
     margin: .25rem 0;
-    font-size: .625rem;
+    font-size: 1.4rem;
     color: #fff;
     background-color: #6c79db;
     border: none;
     border-radius: 1rem;
 }
+
 
 @media screen and (min-width: 380px) {
     .pokemons {
